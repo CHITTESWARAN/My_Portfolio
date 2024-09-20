@@ -56,6 +56,11 @@ li:hover {
   .navbar {
     margin: 20px 50px;
   }
+  .nav-mob-open{
+    margin-right: 20px;
+    height: 20px;
+    font-size: 30px;
+  }
 
   .nav-connect {
     display: none;

@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 80px;
     margin: 80px 132px;
@@ -80,14 +81,21 @@
 
 @media (max-width: 768px) {
     .mywork {
-        padding: 0;
-        margin-left: 20%;
+        gap: 50px;
+        width: 80%;
+        margin:20%;
         font-size: 22px;
         font-weight: 600;
     }
 
+.mywork-data:hover {
+    transform: scale(1.2);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+}
+
     .mywork-data img {
-        width: 372px;
+        width: 320px;
         height: auto;
     }
 
@@ -95,15 +103,20 @@
         width: 130px;
         margin-right: -20px;
     }
+    .mywork-container img {
+    width: 100%; 
+    height: auto; 
+     }
 
     .mywork-data {
-        width: 378px;
-        height: 342px;
+        height: auto;
+        width:100%;
+       
     }
 
     .mywork-container {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 70px;
     }
 
     .mywork-showmore {
