@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.css"
 import profile from "../../assets/profilephoto.jpg"
+import { askill_data } from '../../assets/askills_data'
 
 const About = () => {
   return (
@@ -22,18 +23,35 @@ const About = () => {
 
                 I thrive in collaborative environments and am always eager to learn and grow within the web development field. Explore my portfolio to see my work, and feel free to connect with me for potential collaborations or opportunities!</p>
                 </div>
-                <div className="about-skills">
-                  <div className="about-skill"><p>HTML & CSS</p> <hr style={{width:"50%"}}></hr></div>
-                  <div className="about-skill"><p>JavaScript</p> <hr style={{width:"70%"}}></hr></div>
-                  <div className="about-skill"><p>BootStrap3</p> <hr style={{width:"50%"}}></hr></div>
-                  <div className="about-skill"><p>React JS</p> <hr style={{width:"80%"}}></hr></div>
-                  <div className="about-skill"><p>Node JS</p> <hr style={{width:"50%"}}></hr></div>
-                  <div className="about-skill"><p>Tailwind</p> <hr style={{width:"55%"}}></hr></div>
-                  <div className="about-skill"><p>SQL</p> <hr style={{width:"70%"}}></hr></div>
-                </div>
               </div>
             </div>
-               <div className="about-achivements">
+             <div className="about-skilltitle">
+                <div className="aboutskill">
+                  <h1>SKILLS</h1>
+                </div>
+                <div className="about-skills">
+     { askill_data.map((e) => {
+          return (
+           <div key={e.s_no} className="skill-item">
+            <div className="skill-logos">
+             <img src={e.s_img} alt="" />
+           </div>
+           <div className="skill-percent">
+              <p>{e.s_name}</p>
+              <hr style={{ width: e.s_per }} />
+           </div>
+           </div>
+          );
+            })}
+                  
+                
+                  
+                  
+                 
+                </div>
+
+             </div>
+             <div className="about-achivements">
                 <div className="about-achivement">
                     <h1>0.4</h1>
                     <p>YEARS OF EXPERIENCE</p>
@@ -50,6 +68,8 @@ const About = () => {
                 </div>
 
                 </div> 
+            
+            
 
              </div>
         
