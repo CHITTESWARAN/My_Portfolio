@@ -3,7 +3,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png"; 
 import bootstrap from "../assets/bootstrap.png"; 
 import reactjs from "../assets/reactjs.png"; 
-import node from "../assets/nodejs.png"; 
+import node from "../assets/Nodejs.png"; 
 import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/mysql.png"; 
 
