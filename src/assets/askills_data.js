@@ -5,7 +5,7 @@ import bootstrap from "../assets/bootstrap.png";
 import reactjs from "../assets/reactjs.png"; 
 import node from "../assets/Nodejs.png"; 
 import tailwind from "../assets/tailwind.png";
-import mysql from "../assets/mysql.png"; 
+import mysql from "../assets/mySql.png"; 
 
 export const askill_data = [
   {
