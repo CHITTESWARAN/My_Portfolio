@@ -38,7 +38,7 @@ const About = () => {
            </div>
            <div className="skill-percent">
               <p>{e.s_name}</p>
-              <hr style={{ width: e.s_per }} />
+              <hr style={{ width: e.s_per}} />
            </div>
            </div>
           );

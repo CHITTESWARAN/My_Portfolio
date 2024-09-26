@@ -20,7 +20,7 @@ const Footer = () => {
                 <h2 ><SiGeeksforgeeks /> <a href="https://www.geeksforgeeks.org/user/umaycoq631/"> Geeksforgeeks</a></h2>
                
                 </div>
-                <div className="footer-suscribe">Follow me for more update✌️</div>
+                <div className="footer-suscribe"><a href="https://www.linkedin.com/in/chitteswaran-j-573871232/recent-activity/all/">Follow me for more update✌️</a></div>
             </div>
             </div>
             <hr />
