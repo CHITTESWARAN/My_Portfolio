@@ -72,7 +72,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-detail">
                     <IoMdCall />
-                    <p> 91+ 9003185669429</p>  
+                    <p> 91+ 9003411556</p>  
                     </div>
                     <div className="contact-detail">
                     <MdLocationOn />
