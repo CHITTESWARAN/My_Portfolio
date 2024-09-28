@@ -22,7 +22,7 @@ const Mywork = () => {
     </div>
     <div className="mywork-showmore">
         <p>Show More</p>
-       <p><FaArrowRight /></p>
+       <p><FaArrowRight  /></p>
     </div>
 
     </div>
