@@ -19,7 +19,7 @@ const App = () => {
    
     setCount((pre) => {
       const newCount = pre + 1; 
-      localStorage.setItem('user', JSON.stringify(newCount-1)); 
+      localStorage.setItem('user', JSON.stringify(newCount)); 
       console.log('Updatecount:', newCount); 
       return newCount; 
     });
