@@ -16,6 +16,7 @@ const Mywork = () => {
     <div className="mywork-data" key={index}>
       <img src={work.w_img} alt=""/>
       <h2>{work.w_name}</h2>
+      <button className='theproject'><a href="https://github.com/CHITTESWARAN">Project Link</a></button>
     </div>
   ))
 }
