@@ -1,8 +1,9 @@
 import project1_img from "../assets/aportfolio.png"
 import project2_img from "../assets/theinshopse.png"
 import project3_img from "../assets/asearchengine.png"
-import project4_img from "../assets/aecomerse.png"
-import project5_img from "../assets/theforms.png"
+import project4_img from "../assets/Screenshot (378).png"
+import project5_img from "../assets/Screenshot (379).png"
+import project6_img from "../assets/theforms.png"
 
 
 export const mywork_data = [
@@ -25,13 +26,18 @@ export const mywork_data = [
     },
     {
       w_no: 4,
-      w_name: "Ecormerse website",
+      w_name: "Todolist MERN",
       w_img: project4_img
     },
     {
       w_no: 5,
-      w_name: "Login Form",
+      w_name: "Ecormerse website",
       w_img: project5_img
+    },
+    {
+      w_no: 6,
+      w_name: "Login Form",
+      w_img: project6_img
     }
   ];
   

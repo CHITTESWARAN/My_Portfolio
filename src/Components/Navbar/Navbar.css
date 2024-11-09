@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:20px 170px;
+  margin:20px 42px;
+  gap: 12px;
 }
 
 .nav-menu {
@@ -58,7 +59,7 @@ li:hover {
 
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 50px;
+    margin: 20px 12px;
   }
   .nav-mob-open{
     margin-right: 20px;

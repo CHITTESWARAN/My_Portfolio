@@ -2,8 +2,15 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 24px;
 }
+.hero .thelink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
 .hero img{
     margin-top: 150px;
     height: 160px;
@@ -11,10 +18,16 @@
     object-fit:cover; 
     border-radius: 50%;
 }
+.hero .thelink div{
+    display: flex;
+    margin-top: 25px;
+    cursor: pointer;
+    gap:30px
+}
 .hero h1{
  text-align: center;
  width:70% ;
- font-size:80px ;
+ font-size:75px ;
  font-weight: 600;   
 }
 .hero h1 span{
@@ -82,7 +95,7 @@
         margin-top: 50px;
         text-align:center;
         width:90%;
-        font-size: 50px;
+        font-size: 48px;
         width:360px;
 
     }
