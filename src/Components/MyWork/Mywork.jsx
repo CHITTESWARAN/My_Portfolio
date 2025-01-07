@@ -41,7 +41,7 @@ const Mywork = () => {
 }
     </div>
     <div className="mywork-showmore">
-        <p>Show More</p>
+        <p>Show More</p> 
        <p><FaArrowRight/></p>
     </div>
 
