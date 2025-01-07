@@ -2,6 +2,7 @@ import React from 'react'
 import "./Mywork.css"
 import {mywork_data} from "../../assets/mywork_data"
 import { FaArrowRight } from 'react-icons/fa';
+import { style } from 'framer-motion/client';
 
 const Mywork = () => {
   return (
@@ -16,8 +17,25 @@ const Mywork = () => {
     <div className="mywork-data" key={index}>
       <img src={work.w_img} alt=""/>
       <h2>{work.w_name}</h2>
-      <button className='theproject'><a href="https://github.com/CHITTESWARAN">Project Link</a></button>
-      <button className='theproject'><a href={ w_link}>Work Link</a></button>
+      <div>
+  
+  <button className="theproject">
+    <a href="https://github.com/CHITTESWARAN" target="_blank" rel="noopener noreferrer">
+      Project Link
+    </a>
+  </button>
+
+ 
+  {work?.w_link && (
+    <button className="theproject">
+      <a href={work.w_link} target="_blank" rel="noopener noreferrer">
+        Work Link
+      </a>
+    </button>
+  )}
+</div>
+
+      
     </div>
   ))
 }
