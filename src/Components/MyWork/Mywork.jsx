@@ -14,7 +14,7 @@ const Mywork = () => {
     <div className="mywork-container">
     {
   mywork_data.map((work, index) => (
-    <div className="mywork-data" key={index}>
+    <div className="mywork-data" key={index}> 
       <img src={work.w_img} alt=""/>
       <h2>{work.w_name}</h2>
       <div>
@@ -28,10 +28,10 @@ const Mywork = () => {
  
   {work?.w_link && (
     <button className="theproject">
-      <a href={work.w_link} target="_blank" rel="noopener noreferrer">
+      <a href={work.w_link} target="_blank" rel="noopener noreferrer"> 
         Work Link
       </a>
-    </button>
+    </button>  
   )}
 </div>
 
@@ -41,7 +41,6 @@ const Mywork = () => {
 }
     </div>
     <div className="mywork-showmore">
-    w_link
         <p>Show More</p>
        <p><FaArrowRight/></p>
     </div>
