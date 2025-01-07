@@ -21,7 +21,7 @@ const About = () => {
                    Currently, I’m diving into the MERN stack (MongoDB, Express.js, React, Node.js) to enhance my full-stack development skills. I’m passionate about creating efficient and dynamic web applications and enjoy tackling complex challenges.</p>
                     <p> My goal is to build seamless, scalable solutions and continually advance my expertise in modern web technologies.
 
-                I thrive in collaborative environments and am always eager to learn and grow within the web development field. Explore my portfolio to see my work, and feel free to connect with me for potential collaborations or opportunities!</p>
+                I thrive in collaborative environments and am always a eager to learn and grow within the web development field. Explore my portfolio to see my work, and feel free to connect with me for potential collaborations or opportunities!</p>
                 </div>
               </div>
             </div>

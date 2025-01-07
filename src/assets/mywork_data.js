@@ -1,43 +1,48 @@
-import project1_img from "../assets/aportfolio.png"
-import project2_img from "../assets/theinshopse.png"
-import project3_img from "../assets/asearchengine.png"
-import project4_img from "../assets/Screenshot (378).png"
-import project5_img from "../assets/Screenshot (379).png"
-import project6_img from "../assets/theforms.png"
+import project1_img from "../assets/Screenshot (389).png"
+import project3_img from "../assets/aportfolio.png"
+import project4_img from "../assets/theinshopse.png"
+import project5_img from "../assets/asearchengine.png"
+import project7_img from "../assets/Screenshot (378).png"
+import project2_img from "../assets/Screenshot (384).png"
+import project6_img from "../assets/Screenshot (379).png"
+import project8_img from "../assets/theforms.png"
 
 
 export const mywork_data = [
    
     {
       w_no: 1,
-      w_name: "Mordern Portfolio",
+      w_name: "Chat App",
       w_link:"",
       w_img: project1_img
     },
     {
       w_no: 2,
-      w_name: "Ecormerse website",
+      w_name: "Spotify_Clone",
+      w_link:"",
       w_img: project2_img
     },
     {
       w_no: 3,
-      w_name: "Image Search Engine",
+      w_name: "Mordern Portfolio",
+      w_link:"",
       w_img: project3_img
     },
     {
       w_no: 4,
-      w_name: "Todolist MERN",
+      w_name: "Ecormerse website",
       w_img: project4_img
     },
     {
       w_no: 5,
-      w_name: "Ecormerse website",
+      w_name: "Image Search Engine",
       w_img: project5_img
     },
     {
       w_no: 6,
-      w_name: "Login Form",
+      w_name: "Ecormerse website",
       w_img: project6_img
-    }
+    },
+    
   ];
   
