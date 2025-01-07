@@ -13,19 +13,19 @@ export const mywork_data = [
     {
       w_no: 1,
       w_name: "Chat App",
-      w_link:"",
+      w_link:"https://chat-app-fullstack-y16w.onrender.com",
       w_img: project1_img
     },
     {
       w_no: 2,
       w_name: "Spotify_Clone",
-      w_link:"",
+      w_link:"https://sportifyclone-frontend.onrender.com",
       w_img: project2_img
     },
     {
       w_no: 3,
       w_name: "Mordern Portfolio",
-      w_link:"",
+      w_link:"https://chitteswaran-portfolio.netlify.app/",
       w_img: project3_img
     },
     {

@@ -17,11 +17,13 @@ const Mywork = () => {
       <img src={work.w_img} alt=""/>
       <h2>{work.w_name}</h2>
       <button className='theproject'><a href="https://github.com/CHITTESWARAN">Project Link</a></button>
+      <button className='theproject'><a href={ w_link}>Work Link</a></button>
     </div>
   ))
 }
     </div>
     <div className="mywork-showmore">
+    w_link
         <p>Show More</p>
        <p><FaArrowRight/></p>
     </div>
