@@ -49,7 +49,7 @@ const Mywork = () => {
   ))
 }
     </div>
-    <div className="mywork-showmore" onClick={showmore}>
+    <div className="mywork-showmore" onClick={showmore}> 
         <p>Show More</p> 
        <p><FaArrowRight/></p>
     </div>
