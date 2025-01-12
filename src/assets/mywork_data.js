@@ -5,6 +5,8 @@ import project5_img from "../assets/asearchengine.png"
 import project7_img from "../assets/Screenshot (378).png"
 import project2_img from "../assets/Screenshot (384).png"
 import project6_img from "../assets/Screenshot (379).png"
+import project9_img from "../assets/Screenshot (391).png"
+
 import project8_img from "../assets/theforms.png"
 
 
@@ -43,6 +45,22 @@ export const mywork_data = [
       w_name: "Ecormerse website",
       w_img: project6_img
     },
+    {
+      w_no: 7,
+      w_name: "Todolist",
+      w_img: project7_img
+    },
+    {
+      w_no: 8,
+      w_name: "Forms",
+      w_img: project8_img
+    },
+    {
+      w_no: 9,
+      w_name:  "Blog Website Mern",
+      w_img: project9_img 
+    },
+
     
   ];
   

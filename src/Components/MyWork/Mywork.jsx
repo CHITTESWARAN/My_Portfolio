@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Mywork.css"
 import {mywork_data} from "../../assets/mywork_data"
 import { FaArrowRight } from 'react-icons/fa';
-import { style } from 'framer-motion/client';
+
 
 const Mywork = () => {
+  const [value, setValue] = useState(6);
+
+  function showmore()
+  {
+   setValue(mywork_data.length);
+  }
   return (
     <div className='mywork' id="Mywork">
     <div className="mywork-title">
@@ -14,6 +20,8 @@ const Mywork = () => {
     <div className="mywork-container">
     {
   mywork_data.map((work, index) => (
+   
+    index<value?( 
     <div className="mywork-data" key={index}> 
       <img src={work.w_img} alt=""/>
       <h2>{work.w_name}</h2>
@@ -37,10 +45,11 @@ const Mywork = () => {
 
       
     </div>
+  ):null
   ))
 }
     </div>
-    <div className="mywork-showmore">
+    <div className="mywork-showmore" onClick={showmore}>
         <p>Show More</p> 
        <p><FaArrowRight/></p>
     </div>
