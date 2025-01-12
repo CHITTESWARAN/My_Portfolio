@@ -35,7 +35,7 @@ const Hero = () => {
  
         <div className="hero-action">
             <div className="hero-connect"><a className='anchor-link' href="#Contact">Connect With me</a></div>
-            <div className="hero-resume" > <a href="/CHITTESWARANJ_Resume(09).pdf" download>My Resume</a></div>
+            <div className="hero-resume" > <a href="/CHITTESWARAN_JResume(10).pdf" download>My Resume</a></div>
         </div>
     </div>
   )
